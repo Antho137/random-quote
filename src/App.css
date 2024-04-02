@@ -1,0 +1,100 @@
+body { 
+  height: 100vh; 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./background.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App { 
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: #F5DEB3;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+}
+
+.quote-head {
+  width: 100%;
+  height: 70px;
+  margin: 0;
+}
+
+.quote-head h1 {
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  background-color: #D2691E;
+}
+
+.quote-data {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 20px;
+}
+
+.quote {
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+}
+
+.new-quote button {
+  color: #fff;
+  border: none;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #D2691E;
+}
+
+.new-quote button:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 480px) {
+
+  .App {
+    width: 420px;
+  }
+
+  .quote-head h1 {
+    font-size: 1.375rem;
+  }
+
+  .quote-data {
+    height: 190px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  .App {
+    width: 540px;
+  }
+
+  .quote-head h1 {
+    font-size: 1.625rem;
+  }
+
+  .quote-data {
+    height: 180px;
+  }    
+}
