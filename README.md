@@ -8,7 +8,7 @@
 ## Features
 
 - Simple quote Generator from API.
-- By clicking "New Quote" button, new quote content and author are displayed.
+- By clicking "New Quote" button, new quote content and author is displayed.
 
 ## Built with
 
